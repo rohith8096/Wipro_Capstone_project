@@ -1,0 +1,20 @@
+package control_statements;
+/*check if a student is eligible for a scholarship
+* 1. a student must have score above 80 or must be from reserved category
+*
+* output=Scholarship granted or
+* not eligible for the scholarship*/
+ 
+public class StudentReservation {
+    public static void main(String[] args) {
+        int studentScore = 80;
+        boolean reservedCategory = false;
+
+        if (studentScore > 80 || reservedCategory) {
+            System.out.println("Scholarship granted");
+        } else {
+            System.out.println("Not eligible for scholarship");
+        }
+    }
+}
+

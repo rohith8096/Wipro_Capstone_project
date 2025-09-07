@@ -1,0 +1,9 @@
+package Jenkinspackage;
+
+import org.testng.annotations.Test;
+
+public class Tira {
+  @Test
+  public void f() {
+  }
+}

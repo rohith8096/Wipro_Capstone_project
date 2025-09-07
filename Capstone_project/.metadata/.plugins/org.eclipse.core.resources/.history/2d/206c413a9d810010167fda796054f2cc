@@ -1,0 +1,7 @@
+<suite name="test">
+<test name="TestJenkins">
+<classes>
+<class name="Clinic.Hospitalmanagement"/>
+</classes>
+</test>
+</suite>
